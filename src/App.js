@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TopNavigation from "./components/TopNavigation";
-import { MuiThemeProvider, Grid, Typography, List, ListItem, ListItemText, ListItemIcon } from "@material-ui/core";
+import { MuiThemeProvider, Grid, Typography, List, ListItem, ListItemText, ListItemIcon, Toolbar, CssBaseline } from "@material-ui/core";
 import { DirectionsCar, Smartphone, Money } from "@material-ui/icons";
 import theme from "./utils/theme";
 import LangFile from "./utils/LangFile";
@@ -51,12 +51,19 @@ function App() {
                 {$.soon}
               </Typography>
               <img src={stores} alt="Google play and apple app store" height={50} style={{ marginTop: 15, display: "block" }} />
-              <Typography variant="subtitle1" style={{ marginTop: 10 }}>
-                {$.eta}
-              </Typography>
             </Grid>
           </Grid>
         </main>
+        <footer>
+          <Toolbar>
+            <Typography variant="caption">Jubi Rides</Typography>
+            <div className="footer-info">
+              <Typography variant="caption">CVR: 40806326</Typography>
+              <Typography variant="caption">{$.contact} jonas.groendahlxd@gmail.com</Typography>
+            </div>
+          </Toolbar>
+        </footer>
+        <CssBaseline />
       </div>
     </MuiThemeProvider>
   );

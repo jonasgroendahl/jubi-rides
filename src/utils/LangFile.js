@@ -9,7 +9,7 @@ export default {
     listItem3p: "Low cost. Affordable.",
     listItem3s: "Know the final price when selecting your ride.",
     soon: "Soon available in a city near you in Denmark and in the Google Play Store and Apple App store.",
-    eta: "Predicted launch 2020 Q1",
+    interested: "",
     topNavBtn: "Sign up to become a driver",
     dialogTitle: "Send the following information to",
     dialogListItem1p: "Personal information",
@@ -22,7 +22,8 @@ export default {
     dialogListItem4s: "A newly shot photograph of you",
     dialogListItem5p: "Car information",
     dialogListItem5s: "All relevant car information such as brand, km rode, color, current state",
-    dialogBtn: "Close this window"
+    dialogBtn: "Close this window",
+    contact: "Contact: "
   },
   dk: {
     headline: "Træt af alle de ulemper der kommer ved at bestille en dansk taxi?",
@@ -34,7 +35,7 @@ export default {
     listItem3p: "Lav og overkommelig pris.",
     listItem3s: "Se det samlede beløb når du bestiller et lift.",
     soon: "Snart tilgængelig i Danmark samt i Google Play Store og Apple App store.",
-    eta: "Vi forventer at være klar i 2020 Q1",
+    interested: "",
     topNavBtn: "Skriv til dig op og bliv chauffør",
     dialogTitle: "Send følgende information til",
     dialogListItem1p: "Personlig information",
@@ -47,6 +48,7 @@ export default {
     dialogListItem4s: "Et billede af dig taget fornylig",
     dialogListItem5p: "Bil information",
     dialogListItem5s: "Alt relevantt bil information såsom mærke, km kørt, farve, nuværende stand",
-    dialogBtn: "Luk dette vindue"
+    dialogBtn: "Luk dette vindue",
+    contact: "Kontakt: "
   }
 };
