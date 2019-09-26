@@ -6,7 +6,6 @@ import theme from "./utils/theme";
 import LangFile from "./utils/LangFile";
 
 import requestRideImg from "./assets/phone-mockup-request-ride.png";
-import stores from "./assets/stores.png";
 
 function App() {
   const [lang, setLang] = useState("uk");
@@ -50,7 +49,12 @@ function App() {
               <Typography variant="body1" style={{ marginTop: 20 }}>
                 {$.soon}
               </Typography>
-              <img src={stores} alt="Google play and apple app store" height={50} style={{ marginTop: 15, display: "block" }} />
+              <img
+                src={"http://allstarmusicempire.com/wp-content/uploads/2015/08/comingsoon.png"}
+                alt="Google play and apple app store"
+                height={100}
+                style={{ marginTop: 15, display: "block" }}
+              />
             </Grid>
           </Grid>
         </main>
